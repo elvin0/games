@@ -9,8 +9,8 @@ class Ball {
      * @param {number} boardHeight
      */
     constructor(boardWidth, boardHeight) {
-        this.minSpeed    = 8;
-        this.maxSpeed    = 16;
+        this.minSpeed    = 4;
+        this.maxSpeed    = 14;
         this.minAngle    = 25;
         this.maxAngle    = 75;
         this.speedInc    = 0.1;
